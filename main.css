@@ -1,0 +1,37 @@
+ .menu{
+     background-color:black;
+}
+.menu li{
+    float: left;
+   
+    list-style: none;
+    height: 30px;
+    overflow: hidden;
+    transition: 2s;
+    -
+
+}
+.menu li a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    text-decoration: none; 
+    overflow: hidden;
+    background-color:darkgray;
+    text-align: center;
+    color:aliceblue;
+    padding: 5px 5px 0px 5px ;
+}
+.menu li ul li{
+    display: inline !important;
+    }
+.menu li ul li{
+    margin-left: -40px;
+    text-align: left;
+    }
+.menu> li:hover{
+    height: 170px;  
+    }
+.menu> li a:hover{
+    background-color:black;
+    }
